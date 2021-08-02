@@ -4,7 +4,7 @@ class Ball {
            isStatic:false,
            'restitution':0.8,
             'friction':1.0,
-           'density':10.0
+           'density':1.0
         }
         this.body = Bodies.circle(x,y,40,options)
         this.height=height
